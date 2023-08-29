@@ -22,6 +22,10 @@
 /**************************************/
 /* Helper class */
 /**************************************/
+span {
+  color: var(--clr-primary);
+}
+
 /* button */
 .btn,
 .btn:link,
@@ -38,11 +42,12 @@
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 5px 5px rgb(92, 89, 195, 0.25),
-    0 10px 10px rgb(92, 89, 195, 0.22), 0 0 15px -10px var(--clr-lighter);
+    0 10px 10px rgb(92, 89, 195, 0.22), 0 0 15px -10px var(--clr-primary);
 }
 
 .section {
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
+  margin-top: 4rem;
 }
 
 /* ALL MEDIA QUERIES SYSTEM  */

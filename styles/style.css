@@ -1,0 +1,67 @@
+:root {
+  /* color system */
+  --clr-primary: #28cb8b;
+  --clr-primary-2: #4caf4f;
+  --clr-Secondary: #263238;
+  --clr-info: #2194f3;
+  --clr-font: #4d4d4d;
+  --clr-white: #fff;
+  --clr-active: #2e7d31;
+  /* sizes system */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--clr-font);
+  background-color: var(--clr-white);
+}
+/* reset images and video */
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+/* reset all button */
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+}
+
+a:link,
+a:visited {
+  color: var(--clr-font);
+}
